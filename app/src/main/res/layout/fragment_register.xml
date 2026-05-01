@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Join us to start your experience and track your progress!"
-        android:textColor="@color/biru"
+        android:textColor="@color/material_dynamic_secondary20"
         android:textAlignment="center"
         android:textSize="14sp"
         app:layout_constraintTop_toBottomOf="@id/txt_hello_world"
@@ -117,6 +117,7 @@
         app:cornerRadius="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
-
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#4F6494"
+        android:textColor="#FFFFFF" />
 </androidx.constraintlayout.widget.ConstraintLayout>
