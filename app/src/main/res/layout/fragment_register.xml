@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Join us to start your experience and track your progress!"
-        android:textColor="@color/material_dynamic_secondary20"
+        android:textColor="#666666"
         android:textAlignment="center"
         android:textSize="14sp"
         app:layout_constraintTop_toBottomOf="@id/txt_hello_world"
